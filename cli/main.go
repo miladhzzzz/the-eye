@@ -59,12 +59,14 @@ func detectKubeconfigs() ([]string, error) {
 	
 	// Logic to detect kubeconfig files
 	// Return a list of file paths
+	return[]string{""}, nil
 }
 
 func chooseKubeconfig(kubeconfigs []string) string {
 	fmt.Print("hello")
 	// Logic to allow the user to choose a kubeconfig file
 	// Return the selected file path
+	return ""
 }
 
 func chooseContext(kubeconfig string) string {
@@ -72,6 +74,7 @@ func chooseContext(kubeconfig string) string {
 	// Logic to list available contexts in the chosen kubeconfig
 	// and allow the user to choose a context
 	// Return the selected context name
+	return ""
 }
 
 func deploy(kubeconfig, context string) {
