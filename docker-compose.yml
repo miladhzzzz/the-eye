@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  agent:
+    build:
+      context: ./agent
+    ports:
+      - "8080:8080"
